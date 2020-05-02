@@ -1,2 +1,8 @@
+
+Connect-AzAccount
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ./deploy.ps1 -subscriptionId XXXX -resourceGroupName XXXX -deploymentName XXXX
+
+
+Install-Module AzureRM -AllowClobber  -Scope CurrentUser
+Install-Module -Name Az -AllowClobber -Scope CurrentUser
