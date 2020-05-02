@@ -1,0 +1,2 @@
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+./deploy.ps1 -subscriptionId XXXX -resouceGroupName XXXX -deploymentName XXXX
